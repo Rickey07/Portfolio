@@ -1,0 +1,112 @@
+.typingeffect{
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    animation:typing 3.5s steps(40,end);
+}
+@keyframes typing{
+    from{width: 0%;}
+    to{width: 100%;}
+}
+#Right_span_animate{
+    animation: rightanimate 3.5s 2.3s backwards ;
+    position: relative;
+}
+@keyframes rightanimate{
+     from{right:-500px;}
+     to{right: 0px;}
+}
+#Left_span_animate{
+    animation: leftanimate 3.5s 2.3s backwards;
+    position: relative;
+}
+@keyframes leftanimate{
+    from{
+        left: -500px;
+    }
+    to{
+        left: 0px;
+    }
+}
+#Down_span_animate{
+    animation: downanimate 3.5s 2.3s backwards;
+    position: relative;
+}
+@keyframes downanimate{
+    from{bottom: -400px;}
+    to{bottom: 0px;}
+}
+
+
+
+
+
+
+
+.animate_fill1{
+    animation: fill1 10s !important;
+    /* background-color: rgb(159,191,206) !important; */
+    background-color: rgb(1, 168, 245) !important;
+
+    
+}
+@keyframes fill1{
+    from{width: 0%;}
+    to{width: 20%;}
+}
+.animate_fill2{
+    animation: fill2 10s !important;
+    /* background-color: rgb(159, 191, 206) !important; */
+    background-color: rgb(1, 168, 245) !important;
+
+}
+@keyframes fill2{
+    from{width: 0%;}
+    to{width: 50%;}
+}
+.animate_fill3{
+    animation: fill3 10s !important;
+    /* background-color: rgb(159,191,206) !important */
+    background-color: rgb(1, 168, 245) !important;
+
+
+}
+@keyframes fill3{
+    from{width: 0%;}
+    to{width: 100%;}
+}
+.animate_fill4{
+    animation: fill4 10s !important;
+    /* background-color: rgb(159,191,206) !important */
+    background-color: rgb(1, 168, 245) !important;
+
+
+}
+@keyframes fill4{
+    from{width: 0%;}
+    to{width: 90%;}
+}
+.animate_fill5{
+    animation: fill5 10s !important;
+    /* background-color: rgba(153, 153, 153, 0.651) !important */
+    /* transition: all 0.5 ease-in-out; */
+    background-color: rgb(1, 168, 245) !important;
+
+}
+@keyframes fill5{
+    from{width: 0%;}
+    to{width: 25%;}
+}
+
+.typingeffect_infinite{
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    animation:typing 3.5s infinite steps(40,end);
+}
+@keyframes typing{
+    from{width: 0%;}
+    to{width: 100%;}
+}
